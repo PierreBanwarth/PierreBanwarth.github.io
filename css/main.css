@@ -11,6 +11,15 @@
 *******Typography******
 **************************/
 
+.big-video-wrap {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -30,12 +39,12 @@ body {
     font-family: "Craie";
     src: url('../fonts/cheeseborger.ttf');
 }
- h1, 
+ h1,
  h2,
  h3,
  h4,
  h5,
- h6, 
+ h6,
  li,
  p,
  #single-portfolio,
@@ -53,7 +62,7 @@ body {
   color: #fff;
   font-size: 15px;
   /*font-family: 'Craie','Open Sans', sans-serif;*/
-  
+
     text-transform: uppercase;
 
 }
@@ -117,11 +126,11 @@ h2{
   background-color: #017fb5;
 }
 
-.navbar-nav li a:hover, 
+.navbar-nav li a:hover,
 .navbar-nav li a:focus {
   outline:none;
   outline-offset: 0;
-  text-decoration:none;  
+  text-decoration:none;
   background: transparent;
 }
 
@@ -133,7 +142,7 @@ a {
   transition: 300ms;
 }
 
-a:focus, 
+a:focus,
 a:hover {
   text-decoration: none;
   outline: none
@@ -263,7 +272,7 @@ section {
   width: 51px;
   line-height: 48px;
   border-radius: 50%;
-  border:1px solid #fff;  
+  border:1px solid #fff;
   z-index: 20;
   font-size: 24px;
   color: #fff;
@@ -278,11 +287,11 @@ div.sub, iframe {
     width: 420px;
     height: 315px;
     margin: 0 auto;
-   
+
 }
 .left-control {
   left: -51px
-} 
+}
 
 .right-control {
   right: -51px;
@@ -291,7 +300,7 @@ div.sub, iframe {
   padding-left: auto;
   padding-right: auto;
 }
-.left-control:hover, 
+.left-control:hover,
 .right-control:hover {
   color: #fff;
 }
@@ -300,16 +309,16 @@ div.sub, iframe {
 }
 .acceuil{
       height: 1000px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  background-image: url("../images/fond2.jpg"); 
+  background-image: url("../images/fond2.jpg");
 }
 #home-slider:hover .left-control {
   left:30px
-} 
+}
 
 #home-slider:hover .right-control {
   right:30px
@@ -363,7 +372,7 @@ div.sub, iframe {
   font-size: 36px;
   height: 90px;
   line-height: 90px;
-  width: 90px;  
+  width: 90px;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -378,14 +387,14 @@ div.sub, iframe {
   padding-bottom: 50px;*/
 }
 
-.our-services .col-sm-4:nth-child(4), 
-.our-services .col-sm-4:nth-child(5), 
+.our-services .col-sm-4:nth-child(4),
+.our-services .col-sm-4:nth-child(5),
 .our-services .col-sm-4:nth-child(6) {
   border-bottom:0;
   padding-top: 60px;
 }
 
-.our-services .col-sm-4:nth-child(3), 
+.our-services .col-sm-4:nth-child(3),
 .our-services .col-sm-4:nth-child(6) {
   border-right:0;
 }
@@ -445,7 +454,7 @@ div.sub, iframe {
 ********portfolio CSS*****
 **************************/
 
-#portfolio .container-fluid, 
+#portfolio .container-fluid,
 #portfolio .col-sm-3  {
   overflow: hidden;
   padding: 0;
@@ -457,14 +466,14 @@ div.sub, iframe {
 
 #portfolio .overlay {
   background-color: #000;
-  color: #fff; 
+  color: #fff;
   left: 0;
   right:0;
   bottom:-100%;
   height: 0;
   position: absolute;
   text-align: center;
-  opacity:0;  
+  opacity:0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -541,7 +550,7 @@ div.sub, iframe {
 }
 
 #portfolio .folio-item:hover .overlay .folio-info {
-  opacity: 1;  
+  opacity: 1;
   margin-bottom:0;
   margin-top:0;
 }
@@ -720,11 +729,11 @@ div.sub, iframe {
   line-height: 30px;
 }
 
-.single-table.featured {  
+.single-table.featured {
   color: #fff;
 }
 
-.single-table.featured h3 { 
+.single-table.featured h3 {
   color: #fff;
 }
 
@@ -760,7 +769,7 @@ div.sub, iframe {
   height: 64px;
   width: 64px;
   line-height: 65px;
-  border-radius: 50%; 
+  border-radius: 50%;
   position: relative;
 }
 
@@ -788,7 +797,7 @@ div.sub, iframe {
   color: #fff;
 }
 
-.twitter-left-control, 
+.twitter-left-control,
 .twitter-right-control {
   position: absolute;
   top: 50%;
@@ -805,7 +814,7 @@ div.sub, iframe {
 
 .twitter-left-control {
   left: 80px;
-} 
+}
 
 .twitter-right-control {
   right: 80px
@@ -874,14 +883,14 @@ div.sub, iframe {
 }
 
 .blog-left-control:hover, .blog-right-control:hover {
-  color: #fff;  
+  color: #fff;
 }
 
 .entry-header h3 a {
   line-height: 30px;
 }
 
-.entry-header .date, 
+.entry-header .date,
 .entry-header .cetagory {
   display: inline-block;
   font-size: 11px;
@@ -939,7 +948,7 @@ div.sub, iframe {
 #contact-us {
   height: 925px;
   background-image:url(../images/contact-bg.jpg);
-  padding-bottom: 90px; 
+  padding-bottom: 90px;
 }
 
 #contact-us .heading {
@@ -993,7 +1002,7 @@ ul.address {
 
 #footer {
   color:#fff;
-  
+
   }
 .foot-style{
     background-size: cover;
@@ -1063,5 +1072,3 @@ ul.address {
 }
 
 /*Presets*/
-
-

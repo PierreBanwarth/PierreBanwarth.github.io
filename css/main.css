@@ -27,7 +27,9 @@ body {
   color: #666;
   background-color: #544F1C;
 }
-
+.titre{
+  margin-top : -15px;
+}
 .email{
   font-size: 30px;
   color: #544F1C;

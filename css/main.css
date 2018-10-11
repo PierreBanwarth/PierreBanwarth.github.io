@@ -10,7 +10,16 @@
 /*************************
 *******Typography******
 **************************/
-
+.caroussel-inner-logo{
+  background-image: url("../images/rond-page-de-garde.png");
+  height: 4000px;
+  width: 4000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.carou
 .big-video-wrap {
     overflow: hidden;
     height: 100%;
@@ -21,26 +30,34 @@
     position: absolute;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Craie, sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #666;
-  background-color: #544F1C;
+  background-color: #2d3f4f;
+  margin: 0px -14px;
+
+}
+#footer {
+    background-color: #2d3f4f;
+    color: #2d3f4f;
 }
 .titre{
   margin-top : -15px;
 }
 .email{
-  font-size: 30px;
-  color: #544F1C;
+  font-weight: bold;
+  font-size: 40px;
+  color: #cca839;
 }
 
 
 @font-face {
     font-size :30px;
     font-family: "Craie";
-    src: url('../fonts/cheeseborger.ttf');
+    src: url('../fonts/KGSomebodyThatIUsedToKnow.ttf');
 }
+
  h1,
  h2,
  h3,
@@ -61,12 +78,9 @@ body {
 .parallax input[type="password"]:hover,
 .parallax textarea,
 .parallax textarea:hover {
-  color: #544F1C;
-  font-size: 15px;
-  /*font-family: 'Craie','Open Sans', sans-serif;*/
-
-    text-transform: uppercase;
-
+  color: #cca839;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .social{
@@ -75,10 +89,21 @@ body {
   margin-right: auto;
 
 }
+.fa-test{
+  color: #cca839;
+}
 .panel{
 
   margin-bottom: 0px;
   background-image: url(../images/tableau.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.panel-dessin{
+  margin-bottom: 0px;
+  background-image: url(../images/tableau2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -115,7 +140,7 @@ h2{
 .parallax textarea,
 .parallax textarea:hover {
   font-weight: 300;
-  color: #544F1C;
+  color: #cca839;
   font-family: 'Craie','Open Sans', sans-serif;
 }
 */
@@ -165,7 +190,7 @@ section {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background: #544F1C;
+  background: #2d3f4f;
 }
 
 .preloader > i {
@@ -203,7 +228,7 @@ margin-top: -74px;
 left: 0;
 right: 0;
 text-align: center;
-text-transform: uppercase;
+
 /* tab-size: inherit; */
 z-index: 15;
 font-size: 25px;
@@ -213,14 +238,14 @@ text-shadow: 0 0 3px #1F1D13;
 }
 
 #home-slider .caption h1 {
-  color: #544F1C;
+  color: #cca839;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
 .caption .btn-start {
-  color: #544F1C;
+  color: #cca839;
   font-size: 14px;
   font-weight: 600;
   padding:14px 40px;
@@ -230,7 +255,7 @@ text-shadow: 0 0 3px #1F1D13;
 }
 
 .caption .btn-start:hover {
-  color: #544F1C
+  color: #cca839
 }
 
 .carousel-fade .carousel-inner .item {
@@ -249,7 +274,7 @@ text-shadow: 0 0 3px #1F1D13;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+
 }
 
 .carousel-fade .carousel-inner .active {
@@ -276,10 +301,10 @@ text-shadow: 0 0 3px #1F1D13;
   width: 51px;
   line-height: 48px;
   border-radius: 50%;
-  border:1px solid #544F1C;
+  border:1px solid #cca839;
   z-index: 20;
   font-size: 24px;
-  color: #544F1C;
+  color: #cca839;
   text-align: center;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -306,7 +331,7 @@ div.sub, iframe {
 }
 .left-control:hover,
 .right-control:hover {
-  color: #544F1C;
+  color: #cca839;
 }
 .maintitle{
 
@@ -318,7 +343,7 @@ div.sub, iframe {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-  background-image: url("../images/fond2.jpg");
+  background-image: url("../images/fond2.png");
 }
 #home-slider:hover .left-control {
   left:30px
@@ -332,7 +357,7 @@ div.sub, iframe {
   position: absolute;
   left: 50%;
   bottom: 50px;
-  color: #544F1C;
+  color: #cca839;
   display: inline-block;
   width: 24px;
   margin-left: -12px;
@@ -344,8 +369,8 @@ div.sub, iframe {
 }
 
 .navbar-right li a {
-  color: #544F1C;
-  text-transform: uppercase;
+  color: #cca839;
+
   font-size: 14px;
   font-weight: 600;
   padding-top: 30px;
@@ -419,7 +444,7 @@ div.sub, iframe {
 
 #about-us h2 {
   margin-top: 0;
-  color: #544F1C;
+  color: #cca839;
 }
 
 #about-us .lead {
@@ -433,7 +458,7 @@ div.sub, iframe {
 
 .progress{
   height: 20px;
-  background-color: #544F1C;
+  background-color: #cca839;
   border-radius: 0;
   box-shadow: none;
   -webkit-box-shadow: none;
@@ -471,7 +496,7 @@ div.sub, iframe {
 
 #portfolio .overlay {
   background-color: #000;
-  color: #544F1C;
+  color: #cca839;
   left: 0;
   right:0;
   bottom:-100%;
@@ -504,7 +529,7 @@ div.sub, iframe {
 
 .overlay .folio-info h3 {
   margin-top: 0;
-  color: #544F1C;
+  color: #cca839;
 }
 
 .folio-overview a {
@@ -514,14 +539,14 @@ div.sub, iframe {
   width: 50px;
   line-height: 50px;
   border-radius: 50%;
-  background-color: #544F1C;
+  background-color: #cca839;
   display: inline-block;
   margin-top: 20px;
   margin-right: 5px;
 }
 
 .folio-overview a:hover {
-  color: #544F1C;
+  color: #cca839;
 }
 
 .folio-overview .folio-expand {
@@ -617,7 +642,7 @@ div.sub, iframe {
 }
 
 .social-icons ul li a {
-  color:#544F1C;
+  color:#cca839;
   background-color: #d9d9d9;
   height: 36px;
   width: 36px;
@@ -686,7 +711,7 @@ div.sub, iframe {
   margin-top: 15px;
   font-size: 15px;
   margin-bottom: 7px;
-  color: #544F1C;
+  color: #cca839;
 }
 
 #features .slider-overlay {
@@ -710,7 +735,7 @@ div.sub, iframe {
   margin-top: 0;
   padding: 0;
   font-size: 18px;
-  text-transform: uppercase;
+
   margin-bottom: 30px;
 }
 
@@ -735,15 +760,15 @@ div.sub, iframe {
 }
 
 .single-table.featured {
-  color: #544F1C;
+  color: #cca839;
 }
 
 .single-table.featured h3 {
-  color: #544F1C;
+  color: #cca839;
 }
 
 .single-table.featured .btn.btn-primary {
-  background-color: #544F1C;
+  background-color: #cca839;
 }
 
 /*************************
@@ -766,7 +791,7 @@ div.sub, iframe {
 .twitter-icon {
   position: relative;
   z-index: 15;
-  color: #544F1C;
+  color: #cca839;
 }
 
 .twitter-icon .fa-twitter {
@@ -792,21 +817,21 @@ div.sub, iframe {
 }
 
 #twitter-carousel .item a {
-  color: #544F1C;
+  color: #cca839;
 }
 
 .twitter-icon h4 {
-  text-transform: uppercase;
+
   margin-top: 25px;
   margin-bottom: 25px;
-  color: #544F1C;
+  color: #cca839;
 }
 
 .twitter-left-control,
 .twitter-right-control {
   position: absolute;
   top: 50%;
-  color: #544F1C;
+  color: #cca839;
   border: 1px solid #fafafa;
   height:34px;
   width: 34px;
@@ -826,7 +851,7 @@ div.sub, iframe {
 }
 
 .twitter-left-control:hover, .twitter-right-control:hover {
-  color: #544F1C;
+  color: #cca839;
 }
 
 
@@ -847,7 +872,7 @@ div.sub, iframe {
   line-height: 30px;
   border-radius:4px;
   text-align: center;
-  color: #544F1C;
+  color: #cca839;
   font-size: 12px;
 }
 
@@ -855,9 +880,9 @@ div.sub, iframe {
   position: absolute;
   bottom: 15px;
   left: 15px;
-  color: #544F1C;
+  color: #cca839;
   font-size: 12px;
-  text-transform: uppercase;
+
   font-weight: 600;
 }
 
@@ -888,7 +913,7 @@ div.sub, iframe {
 }
 
 .blog-left-control:hover, .blog-right-control:hover {
-  color: #544F1C;
+  color: #cca839;
 }
 
 .entry-header h3 a {
@@ -901,7 +926,7 @@ div.sub, iframe {
   font-size: 11px;
   font-weight: 600;
   margin-bottom: 30px;
-  text-transform: uppercase;
+
   position: relative;
 }
 
@@ -930,11 +955,11 @@ div.sub, iframe {
   font-size: 14px;
   font-weight: 600;
   padding: 15px 125px;
-  text-transform: uppercase;
+
 }
 
 .btn-loadmore:hover {
-  color:#544F1C;
+  color:#cca839;
 }
 
 /*************************
@@ -993,20 +1018,20 @@ ul.address {
 }
 
 .contact-info ul li a {
-  color: #544F1C;
+  color: #cca839;
 }
 
 .btn-submit {
   display: block;
   padding: 12px;
   width: 100%;
-  color: #544F1C;
+  color: #cca839;
   border:0;
   margin-top: 40px;
 }
 
 #footer {
-  color:#544F1C;
+  color:#cca839;
 
   }
 .foot-style{
@@ -1023,7 +1048,7 @@ ul.address {
 }
 
 #footer .footer-bottom {
-  background-color: #544F1C;
+  background-color: #cca839;
   padding: 20px 0 10px;
 }
 
@@ -1053,7 +1078,7 @@ ul.address {
 }
 
 #footer .social-icons ul li a:hover {
-  color: #544F1C
+  color: #cca839
 }
 
 #footer .social-icons ul li a.envelope:hover {
